@@ -144,21 +144,22 @@
 # print(pop_with_default(data, "o", 0)) # Output: 0
 # print(data) # Output: {'m': 7}
 
-##Cha10 (ALMOLST DONE!!)
-data = {"a": 1, "b": 2, "c": 3, "d": 4}
+# ##Cha10 (ALMOLST DONE!!)
+# data = {"a": 1, "b": 2, "c": 3, "d": 4}
 
-def pop_and_create_new(data, values):
-    newdict = {}
-    for item in data:
-        if item in values:
-            newdict[item] = data.get(item)
+# def pop_and_create_new(data, values):
+#     newdict = {}
+#     for item in data:
+#         if item in values:
+#             newdict[item] = data.get(item)
 
-    for item in values:
-         if item in data:
-             data.pop(item)
+#     for item in values:
+#          if item in data:
+#              data.pop(item)
 
-    return newdict
+#     return newdict
     
 
-print(pop_and_create_new(data, ["b", "d"])) # Output: {'b': 2, 'd': 4}
-print(data) # Output: {'a': 1, 'c': 3}
+# print(pop_and_create_new(data, ["b", "d"])) # Output: {'b': 2, 'd': 4}
+# print(data) # Output: {'a': 1, 'c': 3}
+# #TOO EASY (he says at 2am)
